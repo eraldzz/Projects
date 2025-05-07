@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Random Password Generator</title>
+</head>
+<body>
+    <div class="container">
+
+        <label for="inputValue">Random Number Generator: </label>
+        <input type="number" id="inputValue" min="12" max="32" 
+        placeholder="12-32 characters only" required>
+        <br>
+
+        <div class="checkboxGroup">
+            
+            <label for="uppercase">
+                <input type="checkbox" id="uppercase">
+                Uppercase</label>
+
+            <label for="lowercase">
+                <input type="checkbox" id="lowercase">
+                Lowercase</label>
+
+            <label for="numbers">
+                <input type="checkbox" id="numbers">
+                Numbers</label>
+
+            <label for="symbols">
+                <input type="checkbox" id="symbols">
+                Symbols</label>
+
+        </div>
+
+        <button id="generateBtn">Generate</button>
+        <h1 id="result"></h1>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

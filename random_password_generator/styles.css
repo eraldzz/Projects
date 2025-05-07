@@ -1,0 +1,61 @@
+body{
+    width: 50%;
+    margin: 20px auto 0;
+}
+.container{
+    display: block;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    font-family: "Press Start 2P", system-ui;
+    box-shadow: 5px 5px 15px;
+    padding: 20px 20px;
+    font-size: 1rem;
+}
+
+#inputValue{
+    display: block;
+    margin: 15px auto 0;
+    border-radius: 5px;
+    text-align: center;
+    height: 25px;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.checkboxGroup{
+    text-align: start;
+}
+.checkboxGroup label{
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.checkboxGroup input[type = "checkbox"]{
+    margin-right: 8px;
+}
+
+#generateBtn{
+    margin-top: 5px;
+    padding: 1rem;
+    border: 2px solid red;
+    border-radius: 5px;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+#generateBtn:hover{
+    background-color: red;
+    color: white;
+}
+
+#generateBtn:active{
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+}
+
+h1{
+    font-size: 1.5rem;
+}
